@@ -5,7 +5,12 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   opacity: .9;
+  margin: 0;
 }
+
+
+                          /* header section */
+
 
 header {
   display: flex;
@@ -14,6 +19,8 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
   position: fixed;
+  z-index: 1;
+  background-color: black;
 }
 
 .logo {
@@ -34,3 +41,57 @@ header {
    margin-left: 30px;
    color: white;
  }
+
+.narrow-container {
+  margin: auto 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+                 /* jumbotron section */
+
+
+ .image {
+   background-image: url("../images/img-mission-background.jpg");
+   height: 700px;
+   padding-top: 69px;
+   display: flex;
+   align-items: center;
+   background-size: cover;
+   margin-bottom: 100px;
+}
+
+ .titles {
+   background-color: black;
+   text-align: center;
+   width: 100%;
+}
+
+                  /* gallery section */
+
+.gallery {
+  width: 1000px;
+  margin: auto;
+}
+
+.img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+.img-container {
+  height: 260px;
+  margin: 0 12px;
+}
+
+.img-container img {
+  height: 200px;
+  width: 300px;
+  margin: 0;
+}
+
+.img-container h4 {
+  margin-top: 10px;
+}
