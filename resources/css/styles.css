@@ -131,6 +131,23 @@ header {
 }
 
 
+                        /* footer section */
+
+
 .location-box p {
   margin: 40px auto;
+}
+
+.footer h2 {
+  margin-bottom: 60px;
+}
+
+.copyright {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+.contact {
+  margin-top: 40px;
 }
